@@ -1,0 +1,25 @@
+Minecraft Namespace:
+
+1. overworld_carver_replaceables was changed to include barriers.
+2. All biome files had all their Feature sections simplified and had the barrier-based terrain removal features added. It is important to note that the position of the world remove features occur at the 4th step (bracket), which means structures generate before the world is removed.
+3. Configured Carvers were changed to set the lava y-level to absolute=-64 to prevent floating lava. Carvers are kept to perserve terrain and dungeon spawning.
+4. A lot of feature changes were added to be able to spawn on barriers, and some other slight modifications to look more normal in the phantom world.
+5. Badlands Pillar Noise was set to 0 octaves. This is a hard-coded feature and needs to be removed or else this technique does not work.
+6. Overworld and Nether noise settings were altered to change their surface rules to blank, and default block to barrier. Additionally overworld had all of the large ore vein based settings set to zero. The end is left alone. This is because chorus fruit need to spawn and can only spawn on end_stone. The barrier removers also are able to remove end_stone.
+7. Placed features were similarly changed like configured features.
+8. Buried Treasures use a new custom structure in order to let them generate. They do not because they check for specific blocks and this would not work with this method.
+9. Fortress was added to generate at the raw generation step before the world remover feature is used. This keeps the motif of appearing as if the terrain is invisible.
+
+
+Phantom World Namespace:
+
+1. Buried Treasure Replica is the aforementioned jigsaw version of the buried treasure.
+2. Exit Portal Platform is a custom structure made of bedrock that is used to force the Exit Portal to spawn in the End.
+3. The block tag is used for the world removal method; the main usage is with barriers, but the End remains the same and simply removes endstone. This is to allow chorus fruit to generate.
+4. Barrier Remover is the feature being used to remove the world which is made of barrier blocks now from the noise setting changes.
+5. The numbered configured features are a part of the world removal method. Each deletes their number up to the next 16 blocks (i.e 16 deletes [16,32].
+6. The exit portal platform structure generates at the raw step and is projected to the surface, meaning the portal will as well like normal.
+7. Mineshaft Mesa and Mineshaft are duplicated and generated at steps before and after the world is removed. After generates platforms without minecart chests, and before generates minecart chests but no floor platforms.
+8. The Mineshaft structure set is identical, so it generates the two on top of each other, resulting in mineshaft generation with the minecart chests and platforms.
+9. The exit portal platform structure set guarantees it generating only at 0,0 in the end. This is because of the large structure region size/spacing, and the fact that The End biome is only within a 1024 block radius centered on 0,0 in the end.
+10. Buried Treasure template pool to be used for spawning the replica, same for the exit portal platform.

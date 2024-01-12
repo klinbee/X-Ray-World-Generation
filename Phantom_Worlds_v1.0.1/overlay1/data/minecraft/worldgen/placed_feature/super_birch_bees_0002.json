@@ -1,0 +1,17 @@
+{
+  "feature": "minecraft:super_birch_bees_0002",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": "minecraft:barrier"
+      }
+    }
+  ]
+}

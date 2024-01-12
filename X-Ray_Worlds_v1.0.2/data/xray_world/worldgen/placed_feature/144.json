@@ -1,0 +1,11 @@
+{
+  "feature": "xray_world:world_replacer",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 144
+      }
+    }
+  ]
+}
