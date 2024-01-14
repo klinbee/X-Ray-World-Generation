@@ -20,7 +20,6 @@
     "water_fog_color": 329011
   },
   "features": [
-
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
@@ -31,8 +30,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
-],    
-[
+    ],
+    [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],

@@ -20,7 +20,6 @@
     "water_fog_color": 267827
   },
   "features": [
-
     [
       "minecraft:glow_lichen",
       "minecraft:trees_water",
@@ -33,8 +32,8 @@
       "minecraft:seagrass_deep_warm",
       "minecraft:seagrass_simple",
       "minecraft:kelp_warm"
-],    
-[
+    ],
+    [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
