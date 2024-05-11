@@ -8,8 +8,6 @@
     "#minecraft:emerald_ores",
     "#minecraft:lapis_ores",
     "#minecraft:redstone_ores",
-    "minecraft:suspicious_gravel",
-    "minecraft:suspicious_sand",
     "minecraft:redstone_lamp",
     "minecraft:redstone_block",
     "minecraft:lapis_block",
@@ -133,6 +131,5 @@
     "minecraft:cauldron",
     "minecraft:shroomlight",
     "#minecraft:rails"
-
   ]
 }
