@@ -10,7 +10,7 @@
         "Name": "minecraft:clay"
       }
     },
-    "replaceable": "#phantom_world:barrier",
+    "replaceable": "#terrainless_world:barrier",
     "surface": "floor",
     "vegetation_chance": 0.05,
     "vegetation_feature": {

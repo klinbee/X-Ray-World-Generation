@@ -17,12 +17,12 @@
     [],
     [],
     [
-      "phantom_world:0",
-      "phantom_world:16",
-      "phantom_world:32",
-      "phantom_world:48",
-      "phantom_world:64",
-      "phantom_world:80"
+      "terrainless_world:0",
+      "terrainless_world:16",
+      "terrainless_world:32",
+      "terrainless_world:48",
+      "terrainless_world:64",
+      "terrainless_world:80"
     ]
   ],
   "has_precipitation": false,
