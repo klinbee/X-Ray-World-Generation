@@ -27,7 +27,7 @@
       "terrainless_world:80"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

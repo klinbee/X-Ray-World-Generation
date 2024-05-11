@@ -72,7 +72,7 @@
     ],
     []
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {
     "minecraft:enderman": {
       "charge": 1.0,
