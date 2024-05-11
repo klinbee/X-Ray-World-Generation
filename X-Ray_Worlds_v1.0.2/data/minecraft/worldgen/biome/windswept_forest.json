@@ -52,7 +52,7 @@
     [
       "minecraft:ore_infested"
     ],
-[],
+    [],
     [],
     [
       "xray_world:-64",
@@ -77,7 +77,7 @@
       "xray_world:240"
     ]
   ],
-  "has_precipitation": true,
+  "precipitation": "rain",
   "spawn_costs": {},
   "spawners": {
     "ambient": [

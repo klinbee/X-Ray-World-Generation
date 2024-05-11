@@ -74,7 +74,7 @@
       "xray_world:240"
     ]
   ],
-  "has_precipitation": true,
+  "precipitation": "snow",
   "spawn_costs": {},
   "spawners": {
     "ambient": [

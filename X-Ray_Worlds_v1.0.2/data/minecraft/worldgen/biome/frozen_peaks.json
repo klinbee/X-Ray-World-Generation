@@ -37,7 +37,7 @@
     ],
     [],
     [],
-[
+    [
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -83,7 +83,7 @@
       "xray_world:240"
     ]
   ],
-  "has_precipitation": true,
+  "precipitation": "snow",
   "spawn_costs": {},
   "spawners": {
     "ambient": [

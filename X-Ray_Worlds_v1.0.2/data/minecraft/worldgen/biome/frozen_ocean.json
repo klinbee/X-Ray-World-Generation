@@ -31,7 +31,7 @@
     ],
     [],
     [],
-[
+    [
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -46,7 +46,8 @@
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper"],
+      "minecraft:ore_copper"
+    ],
     [],
     [],
     [],
@@ -73,7 +74,7 @@
       "xray_world:240"
     ]
   ],
-  "has_precipitation": true,
+  "precipitation": "snow",
   "spawn_costs": {},
   "spawners": {
     "ambient": [
