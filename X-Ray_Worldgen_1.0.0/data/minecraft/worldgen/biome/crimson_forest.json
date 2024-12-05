@@ -47,9 +47,7 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    [
-      "minecraft:crimson_fungi"
-    ],
+    ["minecraft:crimson_fungi"],
     [
       "xray_world:0",
       "xray_world:16",

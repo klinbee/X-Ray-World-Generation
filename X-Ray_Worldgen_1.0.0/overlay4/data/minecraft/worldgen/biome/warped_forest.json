@@ -47,9 +47,7 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    [
-      "minecraft:warped_fungi"
-    ],
+    ["minecraft:warped_fungi"],
     [
       "xray_world:0",
       "xray_world:16",

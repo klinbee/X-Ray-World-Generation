@@ -16,25 +16,47 @@
       }
     ],
     "pack_format": 15,
-    "supported_formats": [15, 999]
+    "supported_formats": [
+      15,
+      999
+    ]
   },
   "overlays": {
     "entries": [
       {
-        "formats": [17, 999],
+        "formats": [
+          17,
+          999
+        ],
         "directory": "overlay1"
       },
       {
-        "formats": [41, 999],
+        "formats": [
+          41,
+          999
+        ],
         "directory": "overlay2"
       },
       {
-        "formats": [48, 999],
+        "formats": [
+          48,
+          999
+        ],
         "directory": "overlay3"
       },
       {
-        "formats": [57, 999],
+        "formats": [
+          57,
+          999
+        ],
         "directory": "overlay4"
+      },
+      {
+        "formats": [
+          60,
+          999
+        ],
+        "directory": "overlay5"
       }
     ]
   }
