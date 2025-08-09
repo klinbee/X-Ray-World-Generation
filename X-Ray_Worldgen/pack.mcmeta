@@ -2,8 +2,8 @@
   "pack": {
     "description": [
       {
-        "text": "Terrainless World",
-        "color": "#401241"
+        "text": "X-Ray Worldgen",
+        "color": "#401224"
       },
       "\n",
       {
@@ -21,24 +21,32 @@
   "overlays": {
     "entries": [
       {
-        "formats": [26, 999],
-        "directory": "overlay1"
+        "formats": [18, 999],
+        "directory": "overlay-1-20-2"
       },
       {
         "formats": [41, 999],
-        "directory": "overlay2"
+        "directory": "overlay-1-20-5"
       },
       {
         "formats": [48, 999],
-        "directory": "overlay3"
+        "directory": "overlay-1-21"
       },
       {
         "formats": [57, 999],
-        "directory": "overlay4"
+        "directory": "overlay-1-21-2"
       },
       {
-        "formats": [60, 999],
-        "directory": "overlay5"
+        "formats": [61, 999],
+        "directory": "overlay-1-21-4"
+      },
+      {
+        "formats": [71, 999],
+        "directory": "overlay-1-21-5"
+      },
+      {
+        "formats": [80, 999],
+        "directory": "overlay-1-21-6"
       }
     ]
   }
