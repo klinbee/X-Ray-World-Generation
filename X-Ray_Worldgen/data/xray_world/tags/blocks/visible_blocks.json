@@ -1,4 +1,6 @@
 {
+  "": "Blocks you would see w/ x-ray; `world_replacer` cannot replace tag",
+  "replace": true,
   "values": [
     "#minecraft:coal_ores",
     "#minecraft:iron_ores",
@@ -128,7 +130,6 @@
     "#minecraft:buttons",
     "minecraft:lever",
     "minecraft:lava",
-    "minecraft:water",
     "minecraft:flower_pot",
     "minecraft:cauldron",
     "minecraft:shroomlight",

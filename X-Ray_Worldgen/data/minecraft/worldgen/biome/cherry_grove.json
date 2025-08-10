@@ -29,12 +29,29 @@
   },
   "features": [
     [],
-    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
     [],
     [],
     [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -50,32 +67,42 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
       "minecraft:ore_emerald"
     ],
-    ["minecraft:ore_infested"],
+    [
+      "minecraft:ore_infested"
+    ],
     [],
     [],
     [
-      "xray_world:-64",
-      "xray_world:-48",
-      "xray_world:-32",
-      "xray_world:-16",
-      "xray_world:0",
-      "xray_world:16",
-      "xray_world:32",
-      "xray_world:48",
-      "xray_world:64",
-      "xray_world:80",
-      "xray_world:96",
-      "xray_world:112",
-      "xray_world:128",
-      "xray_world:144",
-      "xray_world:160",
-      "xray_world:176",
-      "xray_world:192",
-      "xray_world:208",
-      "xray_world:224",
-      "xray_world:240"
+      "xray_world:y-64",
+      "xray_world:y-48",
+      "xray_world:y-32",
+      "xray_world:y-16",
+      "xray_world:y0",
+      "xray_world:y16",
+      "xray_world:y32",
+      "xray_world:y48",
+      "xray_world:y64",
+      "xray_world:y80",
+      "xray_world:y96",
+      "xray_world:y112",
+      "xray_world:y128",
+      "xray_world:y144",
+      "xray_world:y160",
+      "xray_world:y176",
+      "xray_world:y192",
+      "xray_world:y208",
+      "xray_world:y224",
+      "xray_world:y240",
+      "xray_world:y256",
+      "xray_world:y272",
+      "xray_world:y288",
+      "xray_world:y304"
     ]
   ],
   "has_precipitation": true,
@@ -83,89 +110,89 @@
   "spawners": {
     "ambient": [
       {
-        "type": "minecraft:bat",
         "maxCount": 8,
         "minCount": 8,
+        "type": "minecraft:bat",
         "weight": 10
       }
     ],
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:pig",
         "maxCount": 2,
         "minCount": 1,
+        "type": "minecraft:pig",
         "weight": 1
       },
       {
-        "type": "minecraft:rabbit",
         "maxCount": 6,
         "minCount": 2,
+        "type": "minecraft:rabbit",
         "weight": 2
       },
       {
-        "type": "minecraft:sheep",
         "maxCount": 4,
         "minCount": 2,
+        "type": "minecraft:sheep",
         "weight": 2
       }
     ],
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,
+        "type": "minecraft:spider",
         "weight": 100
       },
       {
-        "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
+        "type": "minecraft:zombie",
         "weight": 95
       },
       {
-        "type": "minecraft:zombie_villager",
         "maxCount": 1,
         "minCount": 1,
+        "type": "minecraft:zombie_villager",
         "weight": 5
       },
       {
+        "maxCount": 4,
+        "minCount": 4,
         "type": "minecraft:skeleton",
-        "maxCount": 4,
-        "minCount": 4,
         "weight": 100
       },
       {
+        "maxCount": 4,
+        "minCount": 4,
         "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
         "weight": 100
       },
       {
+        "maxCount": 4,
+        "minCount": 4,
         "type": "minecraft:slime",
-        "maxCount": 4,
-        "minCount": 4,
         "weight": 100
       },
       {
-        "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 1,
+        "type": "minecraft:enderman",
         "weight": 10
       },
       {
-        "type": "minecraft:witch",
         "maxCount": 1,
         "minCount": 1,
+        "type": "minecraft:witch",
         "weight": 5
       }
     ],
     "underground_water_creature": [
       {
-        "type": "minecraft:glow_squid",
         "maxCount": 6,
         "minCount": 4,
+        "type": "minecraft:glow_squid",
         "weight": 10
       }
     ],

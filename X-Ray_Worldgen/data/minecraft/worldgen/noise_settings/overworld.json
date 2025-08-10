@@ -1,4 +1,5 @@
 {
+  "": "Fluid to air so no water; -48 to remove hardcoded lava below -54",
   "sea_level": 63,
   "disable_mob_generation": false,
   "aquifers_enabled": true,
@@ -8,7 +9,10 @@
     "Name": "minecraft:stone"
   },
   "default_fluid": {
-    "Name": "minecraft:air"
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
   },
   "noise": {
     "min_y": -64,

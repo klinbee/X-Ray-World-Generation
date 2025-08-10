@@ -1,4 +1,5 @@
 {
+  "": "Replaces all non-`visible_blocks` with air; Geode instead of disk because disks can't replace structures as well...",
   "type": "minecraft:geode",
   "config": {
     "blocks": {

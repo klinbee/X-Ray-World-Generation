@@ -1,4 +1,5 @@
 {
+  "": "Needed or results in chunk border errors",
   "type": "minecraft:geode",
   "config": {
     "blocks": {

@@ -1,0 +1,5 @@
+{
+  "": "Considered a part of terrain, so disabled (and geodes don't work w/ it)",
+  "type": "minecraft:no_op",
+  "config": {}
+}

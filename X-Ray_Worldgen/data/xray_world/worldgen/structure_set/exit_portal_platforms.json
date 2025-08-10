@@ -1,4 +1,5 @@
 {
+  "": "Allows the end exit portal to exist, not cut-off in the void; 128, 127 means that it gens at 0,0 and no where else (due to limited `the_end` biome range)",
   "structures": [
     {
       "structure": "xray_world:exit_portal_platform",
